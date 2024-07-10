@@ -16,5 +16,5 @@ jobs:
           python-version: '3.12'
 
       - name: Run hello-world script 
-        run: python hello-world.py
+        run: python Hello-world.py
 
