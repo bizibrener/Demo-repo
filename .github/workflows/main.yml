@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        run: cd code
+        uses: actions/checkout@v2
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -16,5 +16,5 @@ jobs:
           python-version: '3.12'
 
       - name: Run hello-world script 
-        run: python Hello-world.py
+        run: python code/Hello-world.py
 
